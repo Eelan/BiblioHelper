@@ -14,7 +14,13 @@ Projet Android Ifosup Wavre
 * SEMAL Jonathan
 * SERRUYS Gaëtan
 
-**API** *(à déterminer)*
+** Rôle dans le projet ** *(suivant la quantité de travail et les difficultés de chacun d'entre nous, chaque rôle peut être revu pour apporter de l'aide aux autres)
+* Jansens : Gestion de la bibliothèque en ligne
+* Geoffroy : Gestion du code barre
+* Jonathan : Gestion de l'accès à db
+* Gaëtan : Interface Graphique
+
+**API** *(encore à déterminer)*
 
 *Code Barre*
 * [Barcode API](https://developers.google.com/vision/barcodes-overview)
