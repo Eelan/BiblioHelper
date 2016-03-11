@@ -14,15 +14,21 @@ Projet Android Ifosup Wavre
 * SEMAL Jonathan
 * SERRUYS Gaëtan
 
-**API** *(à déterminer)*
+**Rôle dans le projet** *(suivant la quantité de travail et les difficultés de chacun d'entre nous, chaque rôle peut être revu pour apporter de l'aide aux autres)*
+* Jansens : Gestion de la bibliothèque en ligne
+* Geoffroy : Gestion du code barre
+* Jonathan : Gestion de l'accès à db
+* Gaëtan : Interface Graphique
+
+**API** *(encore à déterminer)*
 
 *Code Barre*
 * [Barcode API](https://developers.google.com/vision/barcodes-overview)
-* [ZXing API](https://www.facebook.com/l.php?u=https%3A%2F%2Fzxingnet.codeplex.com%2F&h=dAQHE5waF)
+* [ZXing API](https://zxingnet.codeplex.com/)
 
 *Bibliothèque en ligne*
 * [GoogleBooks API for Java](https://developers.google.com/api-client-library/java/apis/books/v1)
-* [OpenLibrary](https://www.facebook.com/l.php?u=https%3A%2F%2Fopenlibrary.org%2Fdev%2Fdocs%2Fjson_api&h=dAQHE5waF)
+* [OpenLibrary](https://openlibrary.org/dev/docs/json_api)
 
 ...
 
