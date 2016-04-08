@@ -40,6 +40,7 @@ dependencies {
     compile "org.jetbrains.anko:anko-common:$anko_version"
     compile "com.google.code.gson:gson:$gson_version"
     compile "com.squareup.picasso:picasso:$picasso_version"
+    compile "com.github.satyan:sugar:$sugar_version"
 
     compile 'com.google.zxing:android-integration:3.2.1'
     compile 'com.google.android.gms:play-services-appindexing:8.1.0'
