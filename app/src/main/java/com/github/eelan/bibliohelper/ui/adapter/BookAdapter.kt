@@ -23,7 +23,8 @@ class BookAdapter(val items: BookList, val click: (Book) -> Unit) : RecyclerView
     inner class ViewHolder(view: View, val click: (Book) -> Unit) : RecyclerView.ViewHolder(view) {
         fun bindForecast(forecast: Book) = with(forecast) {
             with(itemView) {
-                book_icon.load(getThumbUrlFromID(idBook, 1))
+                //book_icon.load(getThumbUrlFromID(idBook, 1))
+                book_icon.load(cover)
                 book_author.text = author
                 book_title.text = title
             }

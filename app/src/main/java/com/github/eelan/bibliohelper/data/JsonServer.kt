@@ -12,7 +12,12 @@ import java.net.URL
 class JsonServer {
 
     val APP_ID = "AIzaSyAVsOY4c1O1xJygxf6XM3pRihrjH70YfKw"
-    val SEARCH_QUERY = "isbn:9782070515790" //"isbn:9782070515790"
+    val SEARCH_QUERY = "isbn:9782070515790"
+    /*
+    "isbn:9782070515790"
+    "isbn:9782207303405"
+    "isbn:2226197591"
+    https://www.googleapis.com/books/v1/volumes?q=isbn:9782207303405*/
     val SEARCH_URL = "https://www.googleapis.com/books/v1/volumes?q=$SEARCH_QUERY&key=$APP_ID"
 
     fun getForecast(): BookList {
